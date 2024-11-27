@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 #root {
@@ -12,6 +13,6 @@
 .App {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    background: #E1E1E1;
 }
 

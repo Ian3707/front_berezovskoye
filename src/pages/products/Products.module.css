@@ -1,0 +1,39 @@
+.products_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product_card {
+    display: flex;
+    width: 625px;
+    height: 335px;
+    background: #fff;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.product_card img{
+    padding: 19px;
+}
+
+.text_wrap {
+    padding: 19px;
+}
+
+.text_info {
+    height: 280px;
+    font-size: 16px;
+    font: 400;
+    font-family: 'Montserrat';
+}
+
+.header {
+    font-size: 24px;
+    padding-bottom: 20px;
+    font: 600;
+}
+
+.links {
+    
+}
