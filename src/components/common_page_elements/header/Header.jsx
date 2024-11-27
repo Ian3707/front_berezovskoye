@@ -9,10 +9,16 @@ import logo_berezeovskoye from '../../../static_images/header/Logo.svg'
 import about_logo from '../../../static_images/header/About.svg'
 
 const Header = () => {
+    const handleClick = (event) => {
+        if (event.ctrlKey) {
+            alert('admin');
+        }
+    };
+
     return (  
         <header className={style.header}>
             <div className={style.logo}>
-                <img src={logo_berezeovskoye} alt='logo'></img>
+                <img onClick={e => handleClick(e)} src={logo_berezeovskoye} alt='logo'></img>
             </div>
             <NavBar className={style.navigation}/>
             <NavButton src={about_logo} to='/about'>О нас</NavButton>

@@ -1,7 +1,9 @@
+import PageName from "../../components/UI/page_name/PageName";
+
 const Services = () => {
     return (  
         <div>
-            services
+            <PageName>Услуги</PageName>
         </div>
     );
 }
