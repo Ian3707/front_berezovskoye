@@ -1,0 +1,5 @@
+.main{
+    min-height: calc(100vh - 180px);
+    padding: 100px 17vw 80px;
+    background: #E1E1E1;
+}

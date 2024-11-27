@@ -1,0 +1,15 @@
+.page_name {
+    display: flex;
+    justify-content: space-between;
+    max-width: 66vw;
+}
+
+.text {
+    font-family: 'Montserrat';
+    font: 200;
+    font-size: 24px;
+}
+
+.line {
+    width: 27vw;
+}
